@@ -5,7 +5,7 @@ set -e
 app_dest=target/InputAnalysis
 jar_path=target/InputAnalysis-0.0.0-SNAPSHOT.jar
 
-echo "#!/usr/bin/env java -jar" > "${app_dest}" && \
+echo "#!/usr/bin/java -jar" > "${app_dest}" && \
   cat ${jar_path} >> "${app_dest}" && \
   chmod 0755 ${app_dest}
 
