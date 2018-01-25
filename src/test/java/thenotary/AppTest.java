@@ -1,4 +1,4 @@
-package my_app_group;
+package thenotary;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

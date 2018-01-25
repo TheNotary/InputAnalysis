@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>my_app_group</groupId>
+  <groupId>thenotary</groupId>
   <artifactId>InputAnalysis</artifactId>
   <name>InputAnalysis</name>
   <version>0.0.0-SNAPSHOT</version>
@@ -20,7 +20,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>my_app_group.App</mainClass>
+                  <mainClass>thenotary.App</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -39,7 +39,7 @@
               <goal>exec</goal>
             </goals>
             <configuration>
-              <executable>${basedir}/local_install.sh</executable>
+              <executable>echo</executable>
             </configuration>
           </execution>
         </executions>
